@@ -1443,7 +1443,7 @@ export class CustomValidatorDirective implements Validator {}
 
 - [ ] It indicates that the CustomValidatorDirective can be used on multiple form element types.
 - [ ] It allows for multiple instances of the CustomValidatorDirective to be instantiated. Without multi, the CustomValidatorDirective would be a singleton for the entire app.
-- [ ] It allows the registration of different providers for the single NG_VALIDATORS token. In this case, it is adding the CustomValidatorDirective to the list of form validators available.
+- [x] It allows the registration of different providers for the single NG_VALIDATORS token. In this case, it is adding the CustomValidatorDirective to the list of form validators available.
 - [ ] It indicates that there will be multiple classes that handle the logic implementation for the custom validator.
 
 [StackOverflow](https://stackoverflow.com/questions/38144641/what-is-multi-provider-in-angular2)
@@ -1452,4 +1452,4 @@ export class CustomValidatorDirective implements Validator {}
 - [ ] ng test --single-run=false
 - [ ] ng test --watch-files
 - [ ] ng test --progress
-- [ ] ng test
+- [x] ng test
